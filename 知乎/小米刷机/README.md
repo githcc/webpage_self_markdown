@@ -36,11 +36,11 @@ Washington never told a lie
 
 
 
-![img](v2-ca2c3428fdce957c9a955210fc359a09_720w.webp)
+![img](README.assets/v2-ca2c3428fdce957c9a955210fc359a09_720w.webp)
 
 3.EU版：是欧盟和MIUI认证的民间版本，基于国内版MIUI修改，广告全无且谷歌套件只有谷歌商店和GMS，但是仍然存在上传到国内服务器的云端监控。更新速度与国内测试版平行，不需要任何账号资格，正式版甚至比国内发布还早几天。
 
-![img](v2-ee3ceb92fc38911de40768f4ffffe811_720w.webp)
+![img](README.assets/v2-ee3ceb92fc38911de40768f4ffffe811_720w.webp)
 
 MIUI EU 的论坛链接：https://xiaomi.eu/
 
@@ -110,7 +110,7 @@ EU没有，国际版理论有，具体要看你网络情况
 
 **7.重启手机->退出小米账号/google账号（不退出会导致刷机后会锁机）**
 
-![img](v2-3aa233578c58bc602582bf4b796ecb88_720w.webp)
+![img](README.assets/v2-3aa233578c58bc602582bf4b796ecb88_720w.webp)
 
 新版解锁工具自带驱动，解锁时顺便安装一下
 
@@ -124,7 +124,7 @@ EU没有，国际版理论有，具体要看你网络情况
 
 *EU fastboost版本直接跳过此步骤，用不到*
 
-![img](v2-bb6a17fdd4ffbc1ac51067c12cf4bb2b_720w.webp)
+![img](README.assets/v2-bb6a17fdd4ffbc1ac51067c12cf4bb2b_720w.webp)
 
 ### 2.获得系统安装包
 
@@ -156,7 +156,7 @@ MIUI-STABLE-RELEASES是稳定运行版，稳定版大部分可以收到升级推
 
 官方线刷包都是tgz格式的，如果下载的不是tgz格式说明这个包体有可能不是官方流出，有二次打包的情况，具体怎么解压或者重命名看页面介绍，非tgz格式的压缩包正常解压后会出现tgz格式的。
 
-![img](v2-ff19de226769665a97b250c5cf3f74c0_720w.webp)
+![img](README.assets/v2-ff19de226769665a97b250c5cf3f74c0_720w.webp)
 
 ### 3.刷入系统【国际版/少见版的常规刷入方法】
 
@@ -164,13 +164,13 @@ MIUI-STABLE-RELEASES是稳定运行版，稳定版大部分可以收到升级推
 
 回到XiaoMiFlash首页->点击选择->选择解压的文件夹->点击加载设备->点击加载出的设备->点击右下角全部删除->刷机
 
-![img](v2-a7140bb4f41b14788b150a7f621148a7_720w.webp)
+![img](README.assets/v2-a7140bb4f41b14788b150a7f621148a7_720w.webp)
 
 注意：选择全部删除！不要加锁！不要保留用户数据！
 
 ### 3.刷入系统 【EU论坛下载的ZIP文件】
 
-![img](v2-31fefe0631ef0f2e73ec9f0def6a281c_720w.webp)
+![img](README.assets/v2-31fefe0631ef0f2e73ec9f0def6a281c_720w.webp)
 
 如果是从EU论坛里下载的fastboot版本，下载后是个ZIP文件，不需要XiaoMiFlash，只用我们之前下载的手机解锁工具即可。
 
@@ -180,11 +180,11 @@ MIUI-STABLE-RELEASES是稳定运行版，稳定版大部分可以收到升级推
 
 解压ZIP文件->运行“windows_fastboot_first_install_with_data_format.bat”
 
-![img](v2-bc35b2f5569902a3acd31897880702f6_720w.webp)
+![img](README.assets/v2-bc35b2f5569902a3acd31897880702f6_720w.webp)
 
 （如果是macos或者linux系统，在对应系统下选择XXX_fastboot_first_install_with_data_format.sh）
 
-![img](v2-553efdc8098b7f67fe72db3ef2c2ff34_720w.webp)
+![img](README.assets/v2-553efdc8098b7f67fe72db3ef2c2ff34_720w.webp)
 
 识别设备后，会询问Y/N，选择Y，
 
@@ -208,7 +208,7 @@ MIUI-STABLE-RELEASES是稳定运行版，稳定版大部分可以收到升级推
 
 或者在你知道你自己手机开发代号的情况下可以在EU论坛上传的TWRP合集里[Recovery for Xiaomi devices](https://sourceforge.net/projects/recovery-for-xiaomi-devices/files/)找到比较新的版本。
 
-![img](v2-75a44732a36dc88a678abc134fcb738d_720w.webp)
+![img](README.assets/v2-75a44732a36dc88a678abc134fcb738d_720w.webp)
 
 EU论坛ROM列表前面都会把代号写出来，不知道可以去论坛里随便点开个ROM看一下。
 
@@ -236,13 +236,13 @@ EU论坛ROM列表前面都会把代号写出来，不知道可以去论坛里随
 
 下载 [Platform-tools](https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn) -> 手机进入fastboost模式->解压platform-tools压缩包->按住 Shift 键右键文件夹空白处，点击“在此处打开 Powershell 窗口”->
 
-![img](v2-672476700bc4bdda877cf8a231051cb7_720w.webp)
+![img](README.assets/v2-672476700bc4bdda877cf8a231051cb7_720w.webp)
 
 -> 运行下面命令刷入 TWRP
 
 .\fastboot flash recovery lajixiaomi.img
 
-![img](v2-1bfa53338dbbf31d86e620c6b9fa8d06_720w.webp)
+![img](README.assets/v2-1bfa53338dbbf31d86e620c6b9fa8d06_720w.webp)
 
 ->刷入成功后手机重启到rec界面 ->确保是A区 ->清除data ->重启rec reboot -> 放入下载好的系统zip文件->刷入（不要验证签名，修改版的系统验证有几率BUG） -> 重启系统
 
@@ -268,7 +268,7 @@ EU论坛ROM列表前面都会把代号写出来，不知道可以去论坛里随
 
 3.早年小米手机没锁定手机BL，手机插电脑就可以通过各种软件一键刷机。2015年小米推出主打入门市场的红米手机获得巨大成功，但由于性能太弱，用一两年就会非常卡顿。360针对红米手机卡顿的问题推出了雷电OS，号称让红米手机更流畅。但雷电OS不是新系统，只是对原系统进行非常有限的修改，更多是为了捆绑360全家桶，并且锁定手机recovery，导致无法升级、无法退回官方系统，最后出现一系列故障问题。由于小米没有禁止用户刷第三方系统，除在法院起诉360不正当行为外，只得在后续的手机中增加BL锁，提高刷机难度，减少用户因好奇刷入类似雷电OS的广告捆绑导致的系统问题与财产损失。
 
-![img](v2-7325d987904a33ba5015488cdd01ea37_720w.webp)
+![img](README.assets/v2-7325d987904a33ba5015488cdd01ea37_720w.webp)
 
 如果你不想等，就去小米官网上写明的官方售后点，询问他们是否有解锁BL的权限，如果有，可以当场解锁，不过一般都没有（当然，有也不告诉你，这就看平时与店员关系）。
 
@@ -282,7 +282,7 @@ Jan 2, 2022 MIUI 13 STABLE RELEASE on xiaomi.eu
 
 N/A的就是没有适配（以后大概率也不会适配），写Recovery的是只能卡刷，Fastboot是线刷但很大概率也有卡刷包，具体要去下载站里找对应文件。
 
-![img](v2-63f4452d4fc827b77b39a7bda7b72d2e_720w.webp)
+![img](README.assets/v2-63f4452d4fc827b77b39a7bda7b72d2e_720w.webp)
 
 
 

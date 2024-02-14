@@ -22,7 +22,7 @@ netstat -aon|findstr 3306
 netsh interface ipv4 show excludedportrange protocol=tcp
 ```
 
-![img](2661519-20230720103151441-726725216.jpg)
+![img](README.assets/2661519-20230720103151441-726725216.jpg)
 
 发现3006端口没有被禁用。
 
@@ -44,8 +44,8 @@ net start winnat
 
 重新启动成功：
 
-![img](2661519-20230720104328519-1966809461.png)
+![img](README.assets/2661519-20230720104328519-1966809461.png)
 
 再次启动Mysql容器发现容器启动成功：
 
-![img](2661519-20230720104419170-883635075.png)
+![img](README.assets/2661519-20230720104419170-883635075.png)

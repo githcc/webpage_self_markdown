@@ -19,13 +19,13 @@
 
 ## 大致流程
 
-![img](https://pic3.zhimg.com/80/v2-3120348427f794bb7dcdfd02d3df2bbe_720w.webp)
+![img](README.assets/https://pic3.zhimg.com/80/v2-3120348427f794bb7dcdfd02d3df2bbe_720w.webp)
 
 ------
 
 ## 一、部署 xiaoya
 
-[2023年NAS挂载小雅Alist,瞬间拥有千T资源,告别片荒_哔哩哔哩_bilibiliwww.bilibili.com/video/BV1pN4y1U7kk/?spm_id_from=333.999.0.0![img](https://pic1.zhimg.com/v2-4307ee499d53fcaa665d6051641a393c_ipico.jpg)](https://www.bilibili.com/video/BV1pN4y1U7kk/?spm_id_from=333.999.0.0)
+[2023年NAS挂载小雅Alist,瞬间拥有千T资源,告别片荒_哔哩哔哩_bilibiliwww.bilibili.com/video/BV1pN4y1U7kk/?spm_id_from=333.999.0.0![img](README.assets/https://pic1.zhimg.com/v2-4307ee499d53fcaa665d6051641a393c_ipico.jpg)](https://www.bilibili.com/video/BV1pN4y1U7kk/?spm_id_from=333.999.0.0)
 
 ### 1、新建 xiaoya 文件夹
 
@@ -45,7 +45,7 @@ temp_transfer_folder_id 登陆阿里云盘 > 在资源盘下新建文件夹（xi
 
 点击进入后复制阿里云盘转存目录folder id填入 **temp_transfer_folder_id.txt**
 
-![img](https://pic1.zhimg.com/80/v2-ee1b7807a67c584ae0de1a6a906f760c_720w.webp)
+![img](README.assets/https://pic1.zhimg.com/80/v2-ee1b7807a67c584ae0de1a6a906f760c_720w.webp)
 
 ### 3、上传 Token 文件
 
@@ -61,7 +61,7 @@ sudo -i
 再次输入密码，密码不显示
 ```
 
-![img](https://pic2.zhimg.com/80/v2-7f955bdf9b9a1081a365fa41f1da06b9_720w.webp)
+![img](README.assets/https://pic2.zhimg.com/80/v2-7f955bdf9b9a1081a365fa41f1da06b9_720w.webp)
 
 ### 4.1 、一键安装
 
@@ -83,17 +83,17 @@ bash -c "$(curl http://docker.xiaoya.pro/update_new.sh)"
 
 查看容器是否创建。
 
-![img](https://pic2.zhimg.com/80/v2-0c37c9f7d7321e55bfcd05abf9a3e995_720w.webp)
+![img](README.assets/https://pic2.zhimg.com/80/v2-0c37c9f7d7321e55bfcd05abf9a3e995_720w.webp)
 
 浏览器打开 http://群晖ip:5678/。
 
-![img](https://pic2.zhimg.com/80/v2-f0b5906ada10412c240d817a239d3191_720w.webp)
+![img](README.assets/https://pic2.zhimg.com/80/v2-f0b5906ada10412c240d817a239d3191_720w.webp)
 
 加载中，有页面算完成一半
 
 等5分钟左右 刷新浏览器 验证是否挂载成功。
 
-![img](https://pic3.zhimg.com/80/v2-f806f2e6177594199b243da4a4c4528a_720w.webp)
+![img](README.assets/https://pic3.zhimg.com/80/v2-f806f2e6177594199b243da4a4c4528a_720w.webp)
 
 完成挂载
 
@@ -103,7 +103,7 @@ xiaoya > 元数据 > 随意打开一个.mp4文件查看是否能够播放。
 
 > 无法播放，请回到 步骤2 重新配置 阿里网盘Token 并 重启xiaoya 容器。
 
-![img](https://pic1.zhimg.com/80/v2-ff8ef095384c72e907b6e9beee46f94c_720w.webp)
+![img](README.assets/https://pic1.zhimg.com/80/v2-ff8ef095384c72e907b6e9beee46f94c_720w.webp)
 
 播放正常
 
@@ -117,7 +117,7 @@ xiaoya > 元数据 > 随意打开一个.mp4文件查看是否能够播放。
 bash -c "$(curl -s https://xiaoyahelper.zngle.cf/aliyun_clear.sh | tail -n +2)" -s 3
 ```
 
-![img](https://pic2.zhimg.com/80/v2-7b432c778137994595e1b88034ff38f1_720w.webp)
+![img](README.assets/https://pic2.zhimg.com/80/v2-7b432c778137994595e1b88034ff38f1_720w.webp)
 
 2、更新小雅内容
 
@@ -142,20 +142,20 @@ bash -c "$(curl -s https://xiaoyahelper.zngle.cf/aliyun_clear.sh | tail -n +2)" 
 | docker_address.txt | [http://192.168](http://192.0.0.168/).*.*:5678 | xiaoya地址                                                   |
 | emby_sever.txt     | [http://192.168](http://192.0.0.168/).*.*:8096 | emby地址。 安装 emby 过程有时会被替换成 [http://127.0](http://127.0.0.0/).*:2345 导致2345端口无法进入。 |
 
-![img](https://pic1.zhimg.com/80/v2-c3a120387651cc17dc865e67429a7fdc_720w.webp)
+![img](README.assets/https://pic1.zhimg.com/80/v2-c3a120387651cc17dc865e67429a7fdc_720w.webp)
 
 ### **2、获取 Xiaoya 元数据**
 
 2.1 在 /docker/xiaoya/ 新建 media 文件夹。
 
-![img](https://pic1.zhimg.com/80/v2-64672043d1f73b6825dc420f9b6dff4c_720w.webp)
+![img](README.assets/https://pic1.zhimg.com/80/v2-64672043d1f73b6825dc420f9b6dff4c_720w.webp)
 
 新建media文件夹
 
 2.2 media 文件夹 添加 everyone 读写权限。
 右键2属性 > 3权限 > 3高级选项 > 3使继承权限显式化 > 4Everyone > 3编辑 > 5权限全部打钩 > 6完成
 
-![img](https://pic1.zhimg.com/80/v2-9ef2d1a76790de18f81e02b8f848f044_720w.webp)
+![img](README.assets/https://pic1.zhimg.com/80/v2-9ef2d1a76790de18f81e02b8f848f044_720w.webp)
 
 ### #元数据直链问题：
 
@@ -167,7 +167,7 @@ bash -c "$(curl -s https://xiaoyahelper.zngle.cf/aliyun_clear.sh | tail -n +2)" 
 /volume1/docker/xiaoya/media/xiaoya/综艺/韩国综艺/魔鬼的计划/S01E04_【tvzongheba】E04.strm
 ```
 
-![img](https://pic3.zhimg.com/80/v2-138279d555aa4ce524f2cef829be460a_720w.webp)
+![img](README.assets/https://pic3.zhimg.com/80/v2-138279d555aa4ce524f2cef829be460a_720w.webp)
 
 错误的显示
 
@@ -216,9 +216,9 @@ bash -c "$(curl http://docker.xiaoya.pro/update_metainfo.sh)" -s /volume1/docker
 
 > 好处就是同时下载，同时上传可以节省大量的时间。
 
-![img](https://pic3.zhimg.com/80/v2-16db0b375f71f47b35c7962d1597199e_720w.webp)
+![img](README.assets/https://pic3.zhimg.com/80/v2-16db0b375f71f47b35c7962d1597199e_720w.webp)
 
-![img](https://pic4.zhimg.com/80/v2-b860273a286e68b830505ab81615b667_720w.webp)
+![img](README.assets/https://pic4.zhimg.com/80/v2-b860273a286e68b830505ab81615b667_720w.webp)
 
 > 观看一次文件，阿里云客户端就可以直接下载。速度应该会更快。我这里是差不多。
 
@@ -240,13 +240,13 @@ bash -c "$(curl http://docker.xiaoya.pro/update_metainfo.sh)" -s /volume1/docker
 
 目前微力同步功能还不完善，所以暂时不更新了。参考b站的视频即可。
 
-[首发：小雅每日更新同步来了！还能定时同步哦！_哔哩哔哩_bilibiliwww.bilibili.com/video/BV1Sw411G7cy/?spm_id_from=333.337.search-card.all.click&vd_source=7dfec521e52ebfca5e2f7efcbf7ada4a![img](https://pic4.zhimg.com/v2-f76e0b3cbbfddd23edba719302cd0d07_ipico.jpg)](https://www.bilibili.com/video/BV1Sw411G7cy/?spm_id_from=333.337.search-card.all.click&vd_source=7dfec521e52ebfca5e2f7efcbf7ada4a)
+[首发：小雅每日更新同步来了！还能定时同步哦！_哔哩哔哩_bilibiliwww.bilibili.com/video/BV1Sw411G7cy/?spm_id_from=333.337.search-card.all.click&vd_source=7dfec521e52ebfca5e2f7efcbf7ada4a![img](README.assets/https://pic4.zhimg.com/v2-f76e0b3cbbfddd23edba719302cd0d07_ipico.jpg)](https://www.bilibili.com/video/BV1Sw411G7cy/?spm_id_from=333.337.search-card.all.click&vd_source=7dfec521e52ebfca5e2f7efcbf7ada4a)
 
 ------
 
 ## 三、部署 EMBY
 
-[2023最新小雅Emby全家桶一键安装,解决封面和搜索,玩转千T资源_哔哩哔哩_bilibiliwww.bilibili.com/video/BV1RN4y1U7aK/?spm_id_from=333.999.0.0![img](https://pic2.zhimg.com/v2-88004da441403979f4cb9cdbb04a0381_ipico.jpg)](https://www.bilibili.com/video/BV1RN4y1U7aK/?spm_id_from=333.999.0.0)
+[2023最新小雅Emby全家桶一键安装,解决封面和搜索,玩转千T资源_哔哩哔哩_bilibiliwww.bilibili.com/video/BV1RN4y1U7aK/?spm_id_from=333.999.0.0![img](README.assets/https://pic2.zhimg.com/v2-88004da441403979f4cb9cdbb04a0381_ipico.jpg)](https://www.bilibili.com/video/BV1RN4y1U7aK/?spm_id_from=333.999.0.0)
 
 ### **硬件加速**
 
@@ -260,7 +260,7 @@ ls /dev/dri
 card0 renderD128  #表示已支持硬件加速
 ```
 
-![img](https://pic2.zhimg.com/80/v2-f99d9d5c37918e89946c79abbfb59de5_720w.webp)
+![img](README.assets/https://pic2.zhimg.com/80/v2-f99d9d5c37918e89946c79abbfb59de5_720w.webp)
 
 
 
@@ -293,7 +293,7 @@ bash -c "$(curl http://docker.xiaoya.pro/emby_plus.sh | sed 's#emby/embyserver#a
 
 2.1 docker目录下创建 emby 文件夹。
 
-![img](https://pic4.zhimg.com/80/v2-60046c75bcd3685e203175925931c83b_720w.webp)
+![img](README.assets/https://pic4.zhimg.com/80/v2-60046c75bcd3685e203175925931c83b_720w.webp)
 
 2.2 执行一键命令 适用于 x86_64、amd64 架构的 SSH命令
 
@@ -320,7 +320,7 @@ docker run -d --name emby -v /volume1/docker/emby:/config -v /volume1/docker/xia
 
 ## 四、部署 Jellyfin
 
-[姐夫也爱小雅：群晖Jellyfin一键安装小雅超集2023全网首发_哔哩哔哩_bilibiliwww.bilibili.com/video/BV1Rb4y1L7Vq/?spm_id_from=333.999.0.0&vd_source=7dfec521e52ebfca5e2f7efcbf7ada4a![img](https://pic2.zhimg.com/v2-726c7b985401d539771cd308cd292445_ipico.jpg)](https://www.bilibili.com/video/BV1Rb4y1L7Vq/?spm_id_from=333.999.0.0&vd_source=7dfec521e52ebfca5e2f7efcbf7ada4a)
+[姐夫也爱小雅：群晖Jellyfin一键安装小雅超集2023全网首发_哔哩哔哩_bilibiliwww.bilibili.com/video/BV1Rb4y1L7Vq/?spm_id_from=333.999.0.0&vd_source=7dfec521e52ebfca5e2f7efcbf7ada4a![img](README.assets/https://pic2.zhimg.com/v2-726c7b985401d539771cd308cd292445_ipico.jpg)](https://www.bilibili.com/video/BV1Rb4y1L7Vq/?spm_id_from=333.999.0.0&vd_source=7dfec521e52ebfca5e2f7efcbf7ada4a)
 
 ### 1、推荐安装 nyanmisaka/jellyfin
 
@@ -339,7 +339,7 @@ docker run -d --name jellyfin -v /volume1/docker/Jellyfin:/config -v /volume1/do
 
 环境查看是否PUID = 0、PGID = 0
 
-![img](https://pic3.zhimg.com/80/v2-11efc689ba776a7d93ad53161478b77e_720w.webp)
+![img](README.assets/https://pic3.zhimg.com/80/v2-11efc689ba776a7d93ad53161478b77e_720w.webp)
 
 ### 3、导入小雅emby 相同媒体库
 
@@ -349,7 +349,7 @@ docker run -d --name jellyfin -v /volume1/docker/Jellyfin:/config -v /volume1/do
 
 3.2 导入 Jellyfin 媒体库解压
 
-![img](https://pic1.zhimg.com/80/v2-509dedbc0bb6bdb10f5934c905dd7b70_720w.webp)
+![img](README.assets/https://pic1.zhimg.com/80/v2-509dedbc0bb6bdb10f5934c905dd7b70_720w.webp)
 
 3.3 刷新媒体库。移动至 步骤 四、8
 
@@ -357,63 +357,63 @@ docker run -d --name jellyfin -v /volume1/docker/Jellyfin:/config -v /volume1/do
 
 等一会，如果没搜索的服务器请等5分钟，就能进入欢迎界面。
 
-![img](https://pic1.zhimg.com/80/v2-57aa0c1ffb3cc754de8238cf17566a40_720w.webp)
+![img](README.assets/https://pic1.zhimg.com/80/v2-57aa0c1ffb3cc754de8238cf17566a40_720w.webp)
 
 设置语言
 
-![img](https://pic3.zhimg.com/80/v2-b47108933a7615236562233e4e90974e_720w.webp)
+![img](README.assets/https://pic3.zhimg.com/80/v2-b47108933a7615236562233e4e90974e_720w.webp)
 
 设置用户名
 
-![img](https://pic2.zhimg.com/80/v2-7a69b1e9d893a832bc2cab52f1c696b9_720w.webp)
+![img](README.assets/https://pic2.zhimg.com/80/v2-7a69b1e9d893a832bc2cab52f1c696b9_720w.webp)
 
 跳过
 
-![img](https://pic3.zhimg.com/80/v2-e0ef1660045b414ef0a62a1a5f02ac6a_720w.webp)
+![img](README.assets/https://pic3.zhimg.com/80/v2-e0ef1660045b414ef0a62a1a5f02ac6a_720w.webp)
 
-![img](https://pic4.zhimg.com/80/v2-e70b1717cced6a71623290920e45d8bf_720w.webp)
+![img](README.assets/https://pic4.zhimg.com/80/v2-e70b1717cced6a71623290920e45d8bf_720w.webp)
 
-![img](https://pic1.zhimg.com/80/v2-eb64478ee47784bbc108b3b1b993c834_720w.webp)
+![img](README.assets/https://pic1.zhimg.com/80/v2-eb64478ee47784bbc108b3b1b993c834_720w.webp)
 
 ### 5、进入首页
 
-![img](https://pic4.zhimg.com/80/v2-6b5fbb728a68600f15240931f541c7f3_720w.webp)
+![img](README.assets/https://pic4.zhimg.com/80/v2-6b5fbb728a68600f15240931f541c7f3_720w.webp)
 
-![img](https://pic4.zhimg.com/80/v2-4f43e35e34b3a74756a549a6c5ad99d7_720w.webp)
+![img](README.assets/https://pic4.zhimg.com/80/v2-4f43e35e34b3a74756a549a6c5ad99d7_720w.webp)
 
-![img](https://pic3.zhimg.com/80/v2-efea6652c8699e9b5587fa74e57f880a_720w.webp)
+![img](README.assets/https://pic3.zhimg.com/80/v2-efea6652c8699e9b5587fa74e57f880a_720w.webp)
 
 ### 6、「添加媒体库」配置
 
-![img](https://pic4.zhimg.com/80/v2-04eeab4b9f26dfe567691c9c2ea9af4b_720w.webp)
+![img](README.assets/https://pic4.zhimg.com/80/v2-04eeab4b9f26dfe567691c9c2ea9af4b_720w.webp)
 
-![img](https://pic3.zhimg.com/80/v2-8a529891960c66d9c931b0a4b65740c6_720w.webp)
+![img](README.assets/https://pic3.zhimg.com/80/v2-8a529891960c66d9c931b0a4b65740c6_720w.webp)
 
-![img](https://pic1.zhimg.com/80/v2-83f91af016d3b9ffffd9ebaf18196c00_720w.webp)
+![img](README.assets/https://pic1.zhimg.com/80/v2-83f91af016d3b9ffffd9ebaf18196c00_720w.webp)
 
-![img](https://pic2.zhimg.com/80/v2-0a4189f2bf897013be4460086d715611_720w.webp)
+![img](README.assets/https://pic2.zhimg.com/80/v2-0a4189f2bf897013be4460086d715611_720w.webp)
 
 ### 7、硬件加速设置
 
-![img](https://pic1.zhimg.com/80/v2-510e9f84fef8882337461ed9922b62b4_720w.webp)
+![img](README.assets/https://pic1.zhimg.com/80/v2-510e9f84fef8882337461ed9922b62b4_720w.webp)
 
-![img](https://pic1.zhimg.com/80/v2-54a1a8b7aa3db91123ab6078c57e5da8_720w.webp)
+![img](README.assets/https://pic1.zhimg.com/80/v2-54a1a8b7aa3db91123ab6078c57e5da8_720w.webp)
 
-![img](https://pic1.zhimg.com/80/v2-053afd018b4fca3e3ed0add47b6cac60_720w.webp)
+![img](README.assets/https://pic1.zhimg.com/80/v2-053afd018b4fca3e3ed0add47b6cac60_720w.webp)
 
 ### 8、导入的 emby媒体库
 
 8.1 第一次可点击 扫描所有媒体库
 
-![img](https://pic2.zhimg.com/80/v2-b5dba944ff781d0e6cea21f47e5b8b8d_720w.webp)
+![img](README.assets/https://pic2.zhimg.com/80/v2-b5dba944ff781d0e6cea21f47e5b8b8d_720w.webp)
 
 8.2 之后的逐一刷新
 
-![img](https://pic2.zhimg.com/80/v2-0cb84616af286bdfde3427eb123fac11_720w.webp)
+![img](README.assets/https://pic2.zhimg.com/80/v2-0cb84616af286bdfde3427eb123fac11_720w.webp)
 
 ## 五、部署 TvBox
 
-[支持tvbox苹果tvOS播放器Vidplay上手-alist tvbox小雅集成版教程-修改版_哔哩哔哩_bilibiliwww.bilibili.com/video/BV1oC4y1S7qS/?spm_id_from=333.337.search-card.all.click&vd_source=7dfec521e52ebfca5e2f7efcbf7ada4a![img](https://pic1.zhimg.com/v2-ed94de939a11c46ef1d80b8926bda6cc_ipico.jpg)](https://www.bilibili.com/video/BV1oC4y1S7qS/?spm_id_from=333.337.search-card.all.click&vd_source=7dfec521e52ebfca5e2f7efcbf7ada4a)
+[支持tvbox苹果tvOS播放器Vidplay上手-alist tvbox小雅集成版教程-修改版_哔哩哔哩_bilibiliwww.bilibili.com/video/BV1oC4y1S7qS/?spm_id_from=333.337.search-card.all.click&vd_source=7dfec521e52ebfca5e2f7efcbf7ada4a![img](README.assets/https://pic1.zhimg.com/v2-ed94de939a11c46ef1d80b8926bda6cc_ipico.jpg)](https://www.bilibili.com/video/BV1oC4y1S7qS/?spm_id_from=333.337.search-card.all.click&vd_source=7dfec521e52ebfca5e2f7efcbf7ada4a)
 
 ### 1、创建文件夹
 
@@ -434,17 +434,17 @@ sudo bash -c "$(curl -fsSL https://d.har01d.cn/update_xiaoya.sh)" -s /volume2/do
 
 拉取镜像
 
-![img](https://pic3.zhimg.com/80/v2-d01fff44766a59e6026ddc47d0791e7a_720w.webp)
+![img](README.assets/https://pic3.zhimg.com/80/v2-d01fff44766a59e6026ddc47d0791e7a_720w.webp)
 
 运行镜像
 
-![img](https://pic2.zhimg.com/80/v2-ddbeae4b8342225b71ecc905a25aba51_720w.webp)
+![img](README.assets/https://pic2.zhimg.com/80/v2-ddbeae4b8342225b71ecc905a25aba51_720w.webp)
 
 配置端口和存储位置
 
-![img](https://pic1.zhimg.com/80/v2-febb3306fd11f181d3622967f438809c_720w.webp)
+![img](README.assets/https://pic1.zhimg.com/80/v2-febb3306fd11f181d3622967f438809c_720w.webp)
 
-![img](https://pic2.zhimg.com/80/v2-14be64a85a3f7fc307cd3dc274cc8909_720w.webp)
+![img](README.assets/https://pic2.zhimg.com/80/v2-14be64a85a3f7fc307cd3dc274cc8909_720w.webp)
 
 完成配置
 
@@ -461,11 +461,11 @@ sudo bash -c "$(curl -fsSL https://d.har01d.cn/update_xiaoya.sh)" -s /volume2/do
 
 将丫仙女改为xiaoya，URL指向xiaoya链接，集成版略过。
 
-![img](https://pic3.zhimg.com/80/v2-39533d8f1ec427eaff2fdb155951c89e_720w.webp)
+![img](README.assets/https://pic3.zhimg.com/80/v2-39533d8f1ec427eaff2fdb155951c89e_720w.webp)
 
 ### 4、手动配置阿里网盘
 
-![img](https://pic3.zhimg.com/80/v2-4a000bc2125798f1375f1c14c3eb72ce_720w.webp)
+![img](README.assets/https://pic3.zhimg.com/80/v2-4a000bc2125798f1375f1c14c3eb72ce_720w.webp)
 
 ```text
 Viplay配置地址

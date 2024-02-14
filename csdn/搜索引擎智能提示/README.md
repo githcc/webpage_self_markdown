@@ -228,7 +228,7 @@ callback：window.sogou.sug
 
 如图：
 
-![img](20170921220733450)
+![img](README.assets/20170921220733450)
 
 
 以上是转载内容，我们也可以用ajax来获取百度搜索框的数据，同样也使用jsonp的跨域方式
@@ -451,4 +451,4 @@ https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su
 
 看一下效果图：
 
-![img](20170904105323742)
+![img](README.assets/20170904105323742)

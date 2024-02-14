@@ -7,7 +7,7 @@
 2. [公共仓库](https://hub.docker.com/)
 3. [安装文档](https://docs.docker.com/get-docker/)
 
-![img](b702ed588267488fb4ace3e0c4f3ac79.png)
+![img](README.assets/b702ed588267488fb4ace3e0c4f3ac79.png)
 
 #### 1、选择要安装的平台
 
@@ -17,15 +17,15 @@
 uname -r #通过 uname -r 命令查看你当前的内核版本
 ```
 
- ![img](913e10d5d83a4890b90fc8a76cfeb946.png)
+ ![img](README.assets/913e10d5d83a4890b90fc8a76cfeb946.png)
 
  [安装文档地址](https://docs.docker.com/get-docker/)
 
-![img](5621dadeb8944189bbbc39ddd42945d7.png)
+![img](README.assets/5621dadeb8944189bbbc39ddd42945d7.png)
 
 ####  2、选择要安装的操作系统
 
-![img](aa56d5f284724228acb342f0c705ef9f.png)
+![img](README.assets/aa56d5f284724228acb342f0c705ef9f.png)
 
 ####  3、首先卸载已安装的Docker
 
@@ -35,9 +35,9 @@ uname -r #通过 uname -r 命令查看你当前的内核版本
 sudo yum update
 ```
 
-![img](1dcffb01f0e24bc18c8e10a4886c9bce.png)
+![img](README.assets/1dcffb01f0e24bc18c8e10a4886c9bce.png)
 
-![img](5b009375aeef4aa0be16954468e06d46.png)
+![img](README.assets/5b009375aeef4aa0be16954468e06d46.png)
 
 > 如果你的操作系统没有安装过Docker , 就不需要执行卸载命令。
 
@@ -59,7 +59,7 @@ sudo yum update
                   docker-engine
 ```
 
-![img](11e87baf543741f5ad4ac87779f346dd.png)
+![img](README.assets/11e87baf543741f5ad4ac87779f346dd.png)
 
 ####  4、建立仓库
 
@@ -79,9 +79,9 @@ sudo yum-config-manager \
     https://download.docker.com/linux/centos/docker-ce.repo
 ```
 
-![img](1e11aef5627e48a8b9ba6534fa6dcb6e.png)
+![img](README.assets/1e11aef5627e48a8b9ba6534fa6dcb6e.png)
 
-![img](7d59ea725f2b43cf953f3c74a63dbff6.png)
+![img](README.assets/7d59ea725f2b43cf953f3c74a63dbff6.png)
 
 ####  5、安装Docker引擎
 
@@ -89,11 +89,11 @@ sudo yum-config-manager \
  sudo yum install docker-ce docker-ce-cli containerd.io
 ```
 
-![img](8fce674d8cf74a49aa9522026fde16cf.png)
+![img](README.assets/8fce674d8cf74a49aa9522026fde16cf.png)
 
-![img](ff3077cee8ed412aa36257797b956fe2.png)
+![img](README.assets/ff3077cee8ed412aa36257797b956fe2.png)
 
-![img](5ebf135615ba41d3b4653aed39de1db8.png)
+![img](README.assets/5ebf135615ba41d3b4653aed39de1db8.png)
 
 #### 6、启动Docker
 
@@ -107,9 +107,9 @@ sudo systemctl start docker
 sudo docker run hello-world
 ```
 
-![img](954bb95f42c14b07a97c9881d36c7948.png)
+![img](README.assets/954bb95f42c14b07a97c9881d36c7948.png)
 
-![img](ad5bdad9560e42a2979baba06228dd96.png)
+![img](README.assets/ad5bdad9560e42a2979baba06228dd96.png)
 
 备注
 离线化时间为：2023/11/15
