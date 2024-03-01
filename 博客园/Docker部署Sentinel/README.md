@@ -7,7 +7,7 @@
 docker search sentinel
 ```
 
-![img](C:\Users\wyswy\IdeaProjects\webPage-self-markdown\博客园\docker\README.assets\1582099-20221104165045219-626933797.png)
+![img](README.assets/1582099-20221104165045219-626933797.png)
 
 ## 2. 下载Sentinel镜像
 
@@ -16,7 +16,7 @@ docker search sentinel
 docker pull bladex/sentinel-dashboard
 ```
 
-![img](C:\Users\wyswy\IdeaProjects\webPage-self-markdown\博客园\docker\README.assets\1582099-20221104165212266-1019645198.png)
+![img](README.assets/1582099-20221104165212266-1019645198.png)
 
 ## 3. 运行Sentinel容器
 
@@ -39,8 +39,8 @@ docker run --name sentinel -p 8858:8858 -td bladex/sentinel-dashboard
 
 **密码：sentinel**
 
-![img](C:\Users\wyswy\IdeaProjects\webPage-self-markdown\博客园\docker\README.assets\1582099-20221104165435459-1135031776.png)
+![img](README.assets/1582099-20221104165435459-1135031776.png)
 
-![img](C:\Users\wyswy\IdeaProjects\webPage-self-markdown\博客园\docker\README.assets\1582099-20221104165534274-2050266132.png)
+![img](README.assets/1582099-20221104165534274-2050266132.png)
 
 [上一](https://www.cnblogs.com/nhdlb/p/16843876.html)
