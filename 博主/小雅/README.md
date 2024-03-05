@@ -228,7 +228,7 @@ This video format (mp4) can't be played on this device.
 
 有的群晖因为固件原因，装载路径是 /data 保存应用会失败，那么尝试这样
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled.png)
+![img](README.assets/Untitled.png)
 
 
 
@@ -236,7 +236,7 @@ This video format (mp4) can't be played on this device.
 
 这是unraid的配置参考
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(1).png)
+![img](README.assets/Untitled(1).png)
 
 
 
@@ -248,13 +248,13 @@ This video format (mp4) can't be played on this device.
 
 2
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(2).png)
+![img](README.assets/Untitled(2).png)
 
 
 
 
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(3).png)
+![img](README.assets/Untitled(3).png)
 
 
 
@@ -320,7 +320,7 @@ This video format (mp4) can't be played on this device.
 
 文件：temp_transfer_folder_id.txt *** 用途：你的阿里网盘的转存目录的folder id 格式：640xxxxxxxxxxxxxxxxxxxca8a 备注：打开你阿里云盘网页，目录所在的浏览器地址 https://www.aliyundrive.com/drive/folder/640xxxxxxxxxxxxxxxxxxxca8a   最后一串就是
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(4).png)
+![img](README.assets/Untitled(4).png)
 
 
 
@@ -332,7 +332,7 @@ https://www.aliyundrive.com/s/rP9gP3h9asE
 
 然后打开浏览器，打开转存后的目录，在浏览器的url里获取folder id
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(5).png)
+![img](README.assets/Untitled(5).png)
 
 
 
@@ -340,7 +340,7 @@ https://www.aliyundrive.com/s/rP9gP3h9asE
 
 文件：pikpak.txt 用途：用来观看pikpak分享 格式："xxxxxxxx" "yyyyyyyy" 备注：账号可以是邮箱和手机号，手机号前面要加区号，也就是 "+86xxxx" 这样，注册如果用谷歌快捷方式登入的话是无法使用谷歌邮箱登入的（alist不支持）
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(6).png)
+![img](README.assets/Untitled(6).png)
 
 
 
@@ -362,43 +362,43 @@ https://www.aliyundrive.com/s/rP9gP3h9asE
 
 1
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(7).png)
+![img](README.assets/Untitled(7).png)
 
 
 
 TVBOX 配置地址 http://xxxxx:5678/tvbox/my.json TVBOX 配置地址（多仓，需要TVBox壳支持） http://xxxxx:5678/tvbox/juhe.json
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(8).png)
+![img](README.assets/Untitled(8).png)
 
 
 
 
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(9).png)
+![img](README.assets/Untitled(9).png)
 
 
 
 
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(10).png)
+![img](README.assets/Untitled(10).png)
 
 
 
 
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(11).png)
+![img](README.assets/Untitled(11).png)
 
 
 
 
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(12).png)
+![img](README.assets/Untitled(12).png)
 
 
 
 
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(13).png)
+![img](README.assets/Untitled(13).png)
 
 
 
@@ -412,13 +412,13 @@ TVBOX 配置地址 http://xxxxx:5678/tvbox/my.json TVBOX 配置地址（多仓�
 
 1
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(14).png)
+![img](README.assets/Untitled(14).png)
 
 
 
 
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(15).png)
+![img](README.assets/Untitled(15).png)
 
 
 
@@ -428,13 +428,13 @@ TVBOX 配置地址 http://xxxxx:5678/tvbox/my.json TVBOX 配置地址（多仓�
 
 备注：直播源有格式，区域限制等问题，有的可以在网页观看，有的需要用播放器才能看
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(16).png)
+![img](README.assets/Untitled(16).png)
 
 
 
 
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(17).png)
+![img](README.assets/Untitled(17).png)
 
 
 
@@ -468,7 +468,7 @@ TVBOX 配置地址 http://xxxxx:5678/tvbox/my.json TVBOX 配置地址（多仓�
 
 1
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(18).png)
+![img](README.assets/Untitled(18).png)
 
 
 
@@ -480,7 +480,7 @@ TVBOX 配置地址 http://xxxxx:5678/tvbox/my.json TVBOX 配置地址（多仓�
 
 1
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(19).png)
+![img](README.assets/Untitled(19).png)
 
 
 
@@ -494,7 +494,7 @@ TVBOX 配置地址 http://xxxxx:5678/tvbox/my.json TVBOX 配置地址（多仓�
 
 备注：挂载名不能有空格
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(20).png)
+![img](README.assets/Untitled(20).png)
 
 
 
@@ -502,7 +502,7 @@ TVBOX 配置地址 http://xxxxx:5678/tvbox/my.json TVBOX 配置地址（多仓�
 
 另外提醒一下，不同平台导致的文本文件格式有差别，确保是 unix格式，utf-8编码，不然会出现乱码，网页报错，无法进入目录等奇奇怪怪的问题，看截图，确保编码格式正确
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(21).png)
+![img](README.assets/Untitled(21).png)
 
 
 
@@ -528,7 +528,7 @@ TVBOX 配置地址 http://xxxxx:5678/tvbox/my.json TVBOX 配置地址（多仓�
 
 #### 无法打开页面
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(22).png)
+![img](README.assets/Untitled(22).png)
 
 
 
@@ -538,7 +538,7 @@ TVBOX 配置地址 http://xxxxx:5678/tvbox/my.json TVBOX 配置地址（多仓�
 
 2
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(23).png)
+![img](README.assets/Untitled(23).png)
 
 
 
@@ -560,7 +560,7 @@ bash -c "$(curl -s http://docker.xiaoya.pro/update_new.sh)" -s host
 
 #### 启动加载慢
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(24).png)
+![img](README.assets/Untitled(24).png)
 
 
 
@@ -578,7 +578,7 @@ docker logs -f xiaoya
 
 如果看到
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(25).png)
+![img](README.assets/Untitled(25).png)
 
 
 
@@ -586,7 +586,7 @@ docker logs -f xiaoya
 
 那么就是触发了alist的open接口的限制
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(26).png)
+![img](README.assets/Untitled(26).png)
 
 
 
@@ -616,7 +616,7 @@ docker start xiaoya docker start alist
 
 #### 出现 “The input paramter refresh_token is not valid”
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(27).png)
+![img](README.assets/Untitled(27).png)
 
 
 
@@ -628,7 +628,7 @@ docker start xiaoya docker start alist
 
 curl http://docker.xiaoya.pro/version.txt 看看有没有获取到版本号
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(28).png)
+![img](README.assets/Untitled(28).png)
 
 
 
@@ -686,13 +686,13 @@ iptables -F service dockerd restart docker restart xiaoya
 
 大家留意一下，尽量停掉扫描，过一会而会自动好
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(29).png)
+![img](README.assets/Untitled(29).png)
 
 
 
 
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(30).png)
+![img](README.assets/Untitled(30).png)
 
 
 
@@ -752,7 +752,7 @@ webdav 账号密码
 
 #### potplayer
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(31).png)
+![img](README.assets/Untitled(31).png)
 
 
 
@@ -764,7 +764,7 @@ webdav 账号密码
 
 #### nplayer
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(32).png)
+![img](README.assets/Untitled(32).png)
 
 
 
@@ -772,13 +772,13 @@ webdav 账号密码
 
 #### Kodi
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(33).png)
+![img](README.assets/Untitled(33).png)
 
 
 
 
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(34).png)
+![img](README.assets/Untitled(34).png)
 
 
 
@@ -786,7 +786,7 @@ webdav 账号密码
 
 #### Nova 魔改版（支持webdav，https://t.me/PlutoPlayer/127849 ）
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(35).png)
+![img](README.assets/Untitled(35).png)
 
 
 
@@ -798,7 +798,7 @@ webdav 账号密码
 
 3
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(36).png)
+![img](README.assets/Untitled(36).png)
 
 
 
@@ -812,7 +812,7 @@ webdav 账号密码
 
 在TVBOX 的配置地址填入 http://192.168.2.1:5678/tvbox/my.json
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(37).png)
+![img](README.assets/Untitled(37).png)
 
 
 
@@ -824,7 +824,7 @@ webdav 账号密码
 
 可以支持xiaoya的搜索
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(38).png)
+![img](README.assets/Untitled(38).png)
 
 
 
@@ -832,7 +832,7 @@ webdav 账号密码
 
 也可以用浏览的方式
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(39).png)
+![img](README.assets/Untitled(39).png)
 
 
 
@@ -920,13 +920,13 @@ Add an image
 
 注册另一个账号，不要存超过6G的东西，只要不超过基本会员的免费6G空间，就可以不限速，这个用来看别人的分享或者自己的另一个账号的分享
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(40).png)
+![img](README.assets/Untitled(40).png)
 
 
 
 
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(41).png)
+![img](README.assets/Untitled(41).png)
 
 
 
@@ -940,13 +940,13 @@ Add an image
 
 3
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(42).png)
+![img](README.assets/Untitled(42).png)
 
 
 
 
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(43).png)
+![img](README.assets/Untitled(43).png)
 
 
 
@@ -964,7 +964,7 @@ docker exec -it xiaoya cat /data/pikpak.txt
 
 你可以自己验证一下，选择邮箱登入，输入你的gmail邮箱看行不行
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(44).png)
+![img](README.assets/Untitled(44).png)
 
 
 
@@ -982,7 +982,7 @@ curl https://inapp.mypikpak.com/ping
 
 如果是用浏览器有的能放，有的不能放，那么大概率是浏览器视频解码能力不足，请调用第三方播放器尝试，或者通过webdav连接alist来播放（一般浏览器不支持 H.265 和  AC3 编码视频）
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(45).png)
+![img](README.assets/Untitled(45).png)
 
 
 
@@ -990,7 +990,7 @@ curl https://inapp.mypikpak.com/ping
 
 ## 出现了“磁盘满了，故障排查”怎么办
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(46).png)
+![img](README.assets/Untitled(46).png)
 
 
 
@@ -1010,7 +1010,7 @@ token和opentoken不是一个账号的
 
 ## Alist V3 无法套娃挂载 xiaoya 怎么办？
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(47).png)
+![img](README.assets/Untitled(47).png)
 
 
 
@@ -1066,7 +1066,7 @@ C 是阿里
 
 我以这个资源为例做具体说明
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(48).png)
+![img](README.assets/Untitled(48).png)
 
 
 
@@ -1078,7 +1078,7 @@ http://alist.xiaoya.pro/d/音乐/流行/自听无损音乐545首%20全部有封�
 
 连接这个url得到第一个跳转
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(49).png)
+![img](README.assets/Untitled(49).png)
 
 
 
@@ -1090,7 +1090,7 @@ https://pdsapi.aliyundrive.com/v2/redirect?id=73e8b1fe5c204f1a85ea1ba3789e2da116
 
 继续顺着跳转的url 连接会得到最终的阿里云的临时CDN资源的实际位置
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(50).png)
+![img](README.assets/Untitled(50).png)
 
 
 
@@ -1098,7 +1098,7 @@ https://pdsapi.aliyundrive.com/v2/redirect?id=73e8b1fe5c204f1a85ea1ba3789e2da116
 
 这个一长串的才是真正的资源存放地址，播放器就是通过这个最终的url，打开资源播放，这个资源是有有效期的，就是这个标志，是个unix的时间戳，你转换一下就知道是6个小时
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(51).png)
+![img](README.assets/Untitled(51).png)
 
 
 
@@ -1204,7 +1204,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxx   是你的 token
 
 https://greasyfork.org/zh-CN/scripts/461306-豆瓣资源下载大师-包含小雅-豆瓣电影-音乐-图书下载
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/Untitled(52).png)
+![img](README.assets/Untitled(52).png)
 
 
 
@@ -1212,7 +1212,7 @@ https://greasyfork.org/zh-CN/scripts/461306-豆瓣资源下载大师-包含小�
 
 #### 如果你觉得小雅帮助了你，请给小雅打赏，不要吝啬哦
 
-![img](https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/dashan.png)
+![img](README.assets/dashan.png)
 
 
 
@@ -1220,4 +1220,4 @@ https://greasyfork.org/zh-CN/scripts/461306-豆瓣资源下载大师-包含小�
 
 
 
-<iframe id="intercom-frame" aria-hidden="true" tabindex="-1" title="Intercom" src="https://119.91.23.137/%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AExiaoya%E7%9A%84docker_files/saved_resource.html" style="outline: 0px; box-sizing: border-box; color: rgb(0, 0, 0); font-family: sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; pointer-events: none; position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0px !important; left: 0px !important; border: none !important; display: block !important; z-index: -1 !important;"></iframe>
+<iframe id="intercom-frame" aria-hidden="true" tabindex="-1" title="Intercom" src="README.assets/saved_resource.html" style="outline: 0px; box-sizing: border-box; color: rgb(0, 0, 0); font-family: sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; pointer-events: none; position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0px !important; left: 0px !important; border: none !important; display: block !important; z-index: -1 !important;"></iframe>
