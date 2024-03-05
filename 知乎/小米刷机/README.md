@@ -1,6 +1,6 @@
 # 小米手机 MIUI 国际版/EU 刷机教程
 
-[![孤独的旅行者](v2-ad87f19cfbaa204cbe8de3bee5f0e508_l.jpg)](https://www.zhihu.com/people/gu-shi-da-wang-titans)
+[![孤独的旅行者](README.assets/v2-ad87f19cfbaa204cbe8de3bee5f0e508_l.jpg)](https://www.zhihu.com/people/gu-shi-da-wang-titans)
 
 [孤独的旅行者](https://www.zhihu.com/people/gu-shi-da-wang-titans)
 

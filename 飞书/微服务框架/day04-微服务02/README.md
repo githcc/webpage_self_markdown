@@ -44,14 +44,14 @@
 - 外面的人要想进入园区，必须经过大爷的认可，如果你是不怀好意的人，肯定被直接拦截。
 - 外面的人要传话或送信，要找大爷。大爷帮你带给目标人。
 
-![img](https://b11et3un53m.feishu.cn/space/api/box/stream/download/asynccode/?code=MGFmZjg3MTY0YTk0NGE1NzIwMDRiZDFjMmJlNTNlYjFfcHVuNlM3aGUyYWExQk02eENNdXJvQzVlWDl2SmFtbEFfVG9rZW46TU9tZWJQTjhob1RDVmh4TjF0VGNicVVobmdoXzE3MDkzNjY1NDI6MTcwOTM3MDE0Ml9WNA)
+![img](README.assets/asynccode)
 
 现在，微服务网关就起到同样的作用。前端请求不能直接访问微服务，而是要请求网关：
 
 - 网关可以做安全控制，也就是登录身份校验，校验通过才放行
 - 通过认证后，网关再根据请求判断应该访问哪个微服务，将请求转发过去
 
-![img](https://b11et3un53m.feishu.cn/space/api/box/stream/download/asynccode/?code=Yzc2OGYzMDkwMmVmMTFhZjMyZDhkZWM4MTc3ODE1ZGVfdkZHTnlMbkNoUDdsc0RpTTZXV20xb0VMZEg0NVdOUWlfVG9rZW46WFdmaWJuMUpKb0loM0x4V21SdGNneHVsbm9lXzE3MDkzNjY1NDI6MTcwOTM3MDE0Ml9WNA)
+![img](README.assets/asynccode)
 
 在SpringCloud当中，提供了两种网关实现方案：
 
@@ -138,7 +138,7 @@ https://spring.io/projects/spring-cloud-gateway#learn
 
 在`hm-gateway`模块的`com.hmall.gateway`包下新建一个启动类：
 
-![img](https://b11et3un53m.feishu.cn/space/api/box/stream/download/asynccode/?code=YzQ3MTgzZGFjOWI1Y2I3OWYxZDRhM2MzMzU3ZjhlMTVfUmZ0QU9UaGlIeUF6S2dSN2czZW1SeTc2ZlZJeFJocjZfVG9rZW46SWc2QWJUcUZVbzdBa1N4Q0syVWNKSXdnblljXzE3MDkzNjY1NDI6MTcwOTM3MDE0Ml9WNA)
+![img](README.assets/asynccode)
 
 代码如下：
 
@@ -627,7 +627,7 @@ public class AuthGlobalFilter implements GlobalFilter, Ordered {
 
 访问其他路径则，未登录状态下请求会被拦截，并且返回`401`状态码：
 
-![img](https://b11et3un53m.feishu.cn/space/api/box/stream/download/asynccode/?code=NGY1NWU5OTQxNGNkNzFhN2E0ZWIxYjk0MmQ4OGJmN2VfdXVzd1lvdEEzMFBlVTU2T05SS0xPZjJzUks5RjdzV2RfVG9rZW46Rmg0SGJBVlRrb3E5bTh4UmF4dWNkdUNWbmlnXzE3MDkzNjY1NDI6MTcwOTM3MDE0Ml9WNA)
+![img](README.assets/asynccode)
 
 ## 2.5.微服务获取用户
 

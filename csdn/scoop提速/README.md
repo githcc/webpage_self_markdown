@@ -1,12 +1,6 @@
-#### 文章目录
+# scoop提速：解决scoop软件下载慢的问题
 
-- [1 安装scoop](read://https_blog.csdn.net/?url=https%3A%2F%2Fblog.csdn.net%2Fweixin_42250302%2Farticle%2Fdetails%2F124733053%3F3739a18c-0c68-43cc-a4cb-b8b99e9bfd72%3Dab4a05b4-a0a3-4c50-8cc3-398b0a4dac40#1_scoop_3)
-- [2 使用scoop加速下载软件](read://https_blog.csdn.net/?url=https%3A%2F%2Fblog.csdn.net%2Fweixin_42250302%2Farticle%2Fdetails%2F124733053%3F3739a18c-0c68-43cc-a4cb-b8b99e9bfd72%3Dab4a05b4-a0a3-4c50-8cc3-398b0a4dac40#2_scoop_11)
-- - [2.1 如何加速下载软件](read://https_blog.csdn.net/?url=https%3A%2F%2Fblog.csdn.net%2Fweixin_42250302%2Farticle%2Fdetails%2F124733053%3F3739a18c-0c68-43cc-a4cb-b8b99e9bfd72%3Dab4a05b4-a0a3-4c50-8cc3-398b0a4dac40#21__12)
-  - [2.2 编写powershell函数](read://https_blog.csdn.net/?url=https%3A%2F%2Fblog.csdn.net%2Fweixin_42250302%2Farticle%2Fdetails%2F124733053%3F3739a18c-0c68-43cc-a4cb-b8b99e9bfd72%3Dab4a05b4-a0a3-4c50-8cc3-398b0a4dac40#22_powershell_93)
-  - - [2.2.1 安装、更新、搜索软件](read://https_blog.csdn.net/?url=https%3A%2F%2Fblog.csdn.net%2Fweixin_42250302%2Farticle%2Fdetails%2F124733053%3F3739a18c-0c68-43cc-a4cb-b8b99e9bfd72%3Dab4a05b4-a0a3-4c50-8cc3-398b0a4dac40#221__383)
-    - [2.2.2 卸载软件](read://https_blog.csdn.net/?url=https%3A%2F%2Fblog.csdn.net%2Fweixin_42250302%2Farticle%2Fdetails%2F124733053%3F3739a18c-0c68-43cc-a4cb-b8b99e9bfd72%3Dab4a05b4-a0a3-4c50-8cc3-398b0a4dac40#222__579)
-    - [2.2.3 查看已安装软件](read://https_blog.csdn.net/?url=https%3A%2F%2Fblog.csdn.net%2Fweixin_42250302%2Farticle%2Fdetails%2F124733053%3F3739a18c-0c68-43cc-a4cb-b8b99e9bfd72%3Dab4a05b4-a0a3-4c50-8cc3-398b0a4dac40#223__584)
+
 
 
 
@@ -19,7 +13,6 @@
 ```
 Set-ExecutionPolicy Bypass -Scope CurrentUser
 iwr -useb https://gitee.com/fanyi-ff/poocs/raw/master/install-scoop.ps1 | iex
-12
 ```
 
 ## 2 使用scoop加速下载软件
@@ -46,7 +39,6 @@ Options:
   -u, --no-update-scoop     Don't update Scoop before installing if it's outdated
   -s, --skip                Skip hash validation (use with caution!)
   -a, --arch <32bit|64bit>  Use the specified architecture, if the app supports it
-12345678910111213141516171819
 ```
 
 查看scoop的安装帮助可以看出，有三种方式用scoop安装一个软件：
@@ -63,7 +55,6 @@ To install an app from a manifest at a URL:
 # 3 通过本地的清单文件（**.json）安装一个软件
 To install an app from a manifest on your computer
      scoop install \path\to\app.json
-1234567891011
 ```
 
 下面随便选择一个软件，来查看其对应的清单文件是什么样子的。下面以软件`llvm`为例：
@@ -73,18 +64,16 @@ To install an app from a manifest on your computer
 PS > scoop search llvm
 'main' bucket:
     llvm (14.0.3)
-1234
 ```
 
-下面进入scoop的main [bucket](https://so.csdn.net/so/search?q=bucket&spm=1001.2101.3001.7020)，查看其清单文件
+下面进入scoop的main bucket，查看其清单文件
 https://github.com/ScoopInstaller/Main/blob/master/bucket/llvm.json
 
-![在这里插入图片描述](4ed8e1898da941e8b273a01fffa60999.png)
+![在这里插入图片描述](README.assets/4ed8e1898da941e8b273a01fffa60999.png)
 可以看到，清单文件中软件的下载地址是`github.com`，由此可以分析，软件下载慢正是由于网址的原因。那么便可以通过使用github的代理网站，加速下载软件：
 
 ```
 https://ghproxy.com/
-1
 ```
 
 **首先将该清单文件下载到本地，然后再修改其下载地址，使用上面查询到的安装方式三安装一个软件。**
@@ -92,10 +81,9 @@ https://ghproxy.com/
 ```powershell
 # powershell
 PS > Invoke-WebRequest -Uri https://ghproxy.com/https://github.com/ScoopInstaller/Main/blob/master/bucket/llvm.json -OutFile llvm.json
-12
 ```
 
-![在这里插入图片描述](d278b733c6924d0ca6630f482a27bba5.png)
+![在这里插入图片描述](README.assets/d278b733c6924d0ca6630f482a27bba5.png)
 再使用修改过的清单文件重新下载`llvm`并观察下载效果。
 
 ```powershell
@@ -110,7 +98,6 @@ WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
 Installing 'llvm' (14.0.3) [64bit]
 Starting download with aria2 ...
 Download: [#80ca50 114MiB/263MiB(43%) CN:5 DL:5.5MiB ETA:26s]
-1234567891011
 ```
 
 再次下载可以发现，尝试的修改是有效的，下载软件的速度达到了5兆字节每秒（`Download: [#80ca50 114MiB/263MiB(43%) CN:5 DL:5.5MiB ETA:26s]`）。
@@ -121,14 +108,12 @@ Download: [#80ca50 114MiB/263MiB(43%) CN:5 DL:5.5MiB ETA:26s]
 
 ```
 https://github.com/ScoopInstaller/Main/blob/master/bucket/llvm.json
-1
 ```
 
-观察软件的清单文件的URL地址可以看出，要下载一个软件，要知道一个软件的**bucket**和**软件名（清单文件名）**。比如说[llvm](https://so.csdn.net/so/search?q=llvm&spm=1001.2101.3001.7020)，其bucket为`main`，软件名为`llvm`，URL的其它部分都是不变的，所以一个软件对应的清单文件的URL格式为：
+观察软件的清单文件的URL地址可以看出，要下载一个软件，要知道一个软件的**bucket**和**软件名（清单文件名）**。比如说llvm，其bucket为`main`，软件名为`llvm`，URL的其它部分都是不变的，所以一个软件对应的清单文件的URL格式为：
 
 ```
 https://github.com/ScoopInstaller/***/blob/master/bucket/***.json
-1
 ```
 
 知道这些之后，下面就是替换清单文件中的软件源地址（如果其在github上，则用github的镜像网站），因此编写目标函数的三个要点就是：
@@ -394,8 +379,6 @@ function k-ScoopDownHelper ($url, $file) {
 
     return $StatusCode
 }
-
-123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123124125126127128129130131132133134135136137138139140141142143144145146147148149150151152153154155156157158159160161162163164165166167168169170171172173174175176177178179180181182183184185186187188189190191192193194195196197198199200201202203204205206207208209210211212213214215216217218219220221222223224225226227228229230231232233234235236237238239240241242243244245246247248249250251
 ```
 
 1、将上面的函数保存到powershell的配置文件，在配置文件中的自定义内容，每次启动powershell时都会被自动加载。
@@ -406,7 +389,6 @@ C:\Users\***\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
 
 powershell 7.x 配置文件位置
 C:\Users\***\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
-12345
 ```
 
 2、将上面函数添加到配置文件后，请执行 `.$profile` 命令或关闭当前powershell，重新打开一个powershell，否则函数不生效。
@@ -604,24 +586,16 @@ OUTPUTS
     
     
 RELATED LINKS
-
-
-
-123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123124125126127128129130131132133134135136137138139140141142143144145146147148149150151152153154155156157158159160161162163164165166167168169170171172173174175176177178179180181182183184185186187
 ```
 
 #### 2.2.2 卸载软件
 
 ```shell
 PS > scoop uninstall llvm # 直接使用原生命令即可
-1
 ```
 
 #### 2.2.3 查看已安装软件
 
 ```shell
 PS > scoop list # 直接使用原生命令即可
-1
 ```
-备注
-离线化时间为：2023/11/15
